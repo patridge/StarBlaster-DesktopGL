@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objecttypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objecttype name="Bullet" />
+  <objecttype name="EnemyShip">
+    <property name="SpriteInstanceColorOperation" type="ColorOperation" default="InverseTexture" />
+    <property name="SpriteInstanceRed" type="float" default="0" />
+    <property name="SpriteInstanceGreen" type="float" default="0" />
+    <property name="SpriteInstanceBlue" type="float" default="0" />
+    <property name="DamageFlashDuration" type="float" default="0.05" />
+    <property name="EnemyInfo" type="StarBlaster.DataTypes.EnemyInfo" default="Boss in EnemyInfo.csv" />
+  </objecttype>
+</objecttypes>
